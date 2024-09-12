@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Message Log</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Vincula el archivo CSS -->
+  </head>
+  <body>
+    <div id="container">
+      <h1>Message Log Application</h1>
+      <p>
+        Welcome to the Message Log Application. Use the form below to submit
+        messages. All submitted messages will be displayed below in a table
+        format.
+      </p>
+
+      <form id="messageForm">
+        <input
+          type="text"
+          id="message"
+          placeholder="Enter your message"
+          aria-label="Message"
+        />
+        <button type="submit">Send</button>
+      </form>
+
+      <div id="messages">
+        <table>
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Message</th>
+            </tr>
+          </thead>
+          <tbody id="messagesTableBody">
+            <!-- Messages will be dynamically added here -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
