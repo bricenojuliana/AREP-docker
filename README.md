@@ -1,6 +1,4 @@
-Claro, aquí tienes un ejemplo de un archivo `README.md` para tu proyecto. Asegúrate de personalizarlo según las especificaciones exactas de tu proyecto.
 
-```markdown
 # Message Log Service with Load Balancer
 
 ## Descripción
